@@ -1,0 +1,5 @@
+applicationContext；
+mybatis:scan会扫描org.teng.dao包下面的接口当做当做spring的bean配置，之后可以依赖注入
+context:property-override:使用PorpertyOverrideConfigurer后处理器加载数据源（db.porperties）参数
+bean id="dataSource"配置c3p0数据源
+bean id="sqlSessionaFactory"配置sqlSessionFactory

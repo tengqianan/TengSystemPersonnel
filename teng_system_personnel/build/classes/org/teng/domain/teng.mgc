@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ClassDiagram>
+    <Class name="org.teng.dao.NoticeDao" x="795" y="284">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+    </Class>
+    <Class name="org.teng.dao.EmployeeDao" x="780" y="149">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+    </Class>
+    <Class name="org.teng.service.impl.HrmServiceImpl" x="314" y="127">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Association destinationClassName="org.teng.dao.NoticeDao"
+            endpointName="noticeDao" kind="Simple"/>
+        <Association destinationClassName="org.teng.dao.DeptDao"
+            endpointName="deptDao" kind="Simple"/>
+        <Association destinationClassName="org.teng.dao.DocumentDao"
+            endpointName="documentDao" kind="Simple"/>
+        <Association destinationClassName="org.teng.dao.UserDao"
+            endpointName="userDao" kind="Simple"/>
+        <Association destinationClassName="org.teng.dao.JobDao"
+            endpointName="jobDao" kind="Simple"/>
+        <Association destinationClassName="org.teng.dao.EmployeeDao"
+            endpointName="employeeDao" kind="Simple"/>
+        <Communication destinationClassName="org.teng.dao.NoticeDao"/>
+        <Communication destinationClassName="org.teng.dao.EmployeeDao"/>
+        <Communication destinationClassName="org.teng.dao.UserDao"/>
+        <Communication destinationClassName="org.teng.dao.DocumentDao"/>
+        <Communication destinationClassName="org.teng.dao.JobDao"/>
+        <Communication destinationClassName="org.teng.dao.DeptDao"/>
+    </Class>
+    <Class name="org.teng.dao.UserDao" x="111" y="149">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+    </Class>
+    <Class name="org.teng.dao.DocumentDao" x="783" y="426">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+    </Class>
+    <Class name="org.teng.dao.JobDao" x="104" y="423">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+    </Class>
+    <Class name="org.teng.dao.DeptDao" x="106" y="278">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+    </Class>
+</ClassDiagram>
